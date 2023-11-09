@@ -1,84 +1,252 @@
-<!--<!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Face Recognition Project</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Face recognition landing page</title>
+	 <!-- add bootstrap css file -->
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+
 </head>
 <body>
-    <!-- navbar -->  
- <nav class="navbar navbar-expand-lg fixed-top ">  
-    <a class="navbar-brand" href="#">Home</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
-    <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
-    <li class="nav-item">
-        <a class="nav-link" data-value="about" href="#">Feature</a>        </li>  
-   <li class="nav-item">
-       <a class="nav-link " data-value="portfolio"href="#">About</a>    
-    </li>
-    <!-- <li class="nav-item"> <a class="nav-link " data-value="blog" href="#">Blog</a>         </li> -->  
-   <li class="nav-item">  
-      <a class="nav-link " data-value="team" href="#">         Team</a>       </li>  
-   <li class="nav-item"> 
-    <a class="nav-link " data-value="contact" href="#">Contact</a>       </li> 
-   </ul> 
-   </div></nav>
+  <!-- navbar -->
 
-<header class="header">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="description ">
-         <h1>    Hello, Welcome To My Face Detection and Recognition Tool
-          <p>    This programme is a typical command-line application, but offers some impressive capabilities
-                 using face detection and face recognition to identify faces in a given image.
-        </p>  
-         <button class="btn btn-outline-secondary btn-lg">See more</button>   </h1>  
-        </div> 
-    </div>
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" href="#">Home</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+	      
+			<li class="nav-item">
+				<a class="nav-link" data-value="about" href="#">About</a>
+			  </li>
+		  <li class="nav-item">
+			<a class="nav-link " data-value="feature" href="#">Feature</a>
+		  </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="team" href="#">
+	        Team</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="contact" href="#">Contact</a>
+	      </li>
+	    </ul>
+	    
+	  </div>
+</nav>
+<!-- header -->
+<header class="header ">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  	<h1>
+		Hello, Welcome To My Face Detection and Recognition Tool
+  		<p>
+			This project is a typical command-line application, but offers some impressive capabilities
+			using face detection and face recognition to identify faces in a given image.</p>
+  		<button class="btn btn-outline-secondary btn-lg">See more</button>
+  	</h1>
+  </div>
+   </div>
+  
 </header>
 
-<!-- feature -->
-<div class="feature">
-    <h1 class="text-center">Feature</h1>
-<div class="container">
- <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/feature/validate.png" class="img-fluid">
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/feature/help.jpg" class="img-fluid">
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/feature/validate.png" class="img-fluid">
-  </div>
-     
-<!--<div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port3.png" class="img-fluid">
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port11.png" class="img-fluid">
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/electric.png" class="img-fluid">
-  </div>
-     
-<div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/Classic.jpg" class="img-fluid">
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port1.png" class="img-fluid">
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port8.png" class="img-fluid">
-  </div> -->
- </div>
-</div>
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+	  <h1 class="text-center">About Me</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="images/profile.jpg" class="img-fluid">
+				<span class="text-justify">Junior Web Developer</span>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+			  
+				<h3>Forster Asamany</h3>
+				<p>
+					Greetings! I'm Forster, the mind behind the command-line face 
+					recognition tool that you're exploring. This project was not just a coding 
+					endeavor but a personal journey inspired by a genuine fascination with the 
+					intersection of technology and human connection.
+				</p>
+				<p>
+					The spark for this face recognition tool ignited when I wondered how I am 
+					able to unlock my phone with my face. Above all, wondered how that works. 
+					This made me think; What if I can build my  own face recognizer? As I 
+					embarked on this adventure, each line of code becoming a testament 
+					to my passion for innovation and problem-solving.
+				</p>
+				<p>
+					This project isn't merely an assignment; it's a Portfolio Project for 
+					<a href="https://www.holbertonschool.com/">Holberton School</a>, where I am honing my skills to become a versatile and 
+					adept developer. 
+				</p>
+				<h4>Explore the Project</h4>
+				<p>
+					Dive into the code and explore the intricacies of my face recognition tool 
+					on <a href="https://github.com/fasamany1/resources-face_recognition">GitHub</a>. Your feedback and collaboration are 
+					always welcome as we continue to refine and enhance this project. Connect 
+					with me on <a href="https://www.linkedin.com/in/forster-asamany-886907144/">LinkedIn</a>, 
+					<a href="https://github.com/fasamany1">GitHub</a>, or <a href="https://twitter.com/FAsamany">Twitter</a>, 
+					and let's share our journey in the world of software development.
+				</p>
+				<p>Thank you for being a part of this exciting venture!
+				</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> 
+
+<!-- Features section -->
+<div class="feature" id="feature">
+	<div class="container">
+	<h1 class="text-center">Feature</h1>
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/feature/train.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Train a New Model</h4>
+						<p class="card-text">
+							
+							During the training phase, the face recognizer will open and read numerous 
+				image files. Additionally, it must be able to identify the individuals shown in these images. 
+				To facilitate this process, you'll establish a directory (training/, validation/, output/) structure that imparts essential 
+				information to your program.
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/feature/validate.png" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					   <h4 class="card-title">Validate the Model</h4>
+						<p class="card-text">
+							
+							Model validation is a method employed to assess the performance of the 
+				trained model using data it hasn't encountered during training, but the developer, 
+				is familiar with. By having access to the correct labels 
+				for each image in this new set of data, you can gauge how well your model 
+				performs when given new dataset.
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/feature/test.jpg" class="img-fluid">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Test the Model</h4>
+						<p class="card-text">
+							
+							Test is the option that you’ll probably use often. Use this along with 
+								the -f option to specify the location of an image with unknown faces that 
+								you want to identify. Under the hood, this works the same as validation except 
+								that you specify the image location yourself. Start by using the 
+								--test option with images that you choose.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
+
+<!-- Team section -->
+
+<div class="team" id="team">
+	<div class="container">
+	   <h1 class="text-center">My Team</h1>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/profile.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Forster
+				 </div>
+				<span class="text-muted">Developer</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/mentor.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	 Anonymous
+				 </div>
+				<span class="text-muted">Mentor</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/mentor.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Anonymous 
+				 </div>
+				<span class="text-muted">Reviewer</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/mentor.jpg" class="img-fluid" alt="team">
+				 <div class="des">
+				 	Anonymous
+				 </div>
+				<span class="text-muted">Reviewer</span>
+			</div> 
+		</div>
+	</div>
+</div> 
+
+<!-- Contact form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h1>Get in Touch</h1>	
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+				   <div class="form-group">
+				   	 <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+				   </div>
+				   <div class="form-group">
+				   	 <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+				   </div>
+				   <div class="form-group">
+				   	 <textarea class="form-control form-control-lg">
+				   	 	
+				   	 </textarea>
+				   </div>
+				   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div>
+		</form>
+	</div>
+</div> 
+	
+	<footer class="footer mt-auto py-3" style="background:#F97300;">
+	<div class="container">
+		<p class="text-center text-white lead">Copyright &copy; <script type="text/javascript">
+			document.write(new Date().getFullYear());
+		  </script> Aftech Digitals.</p>
+	  
+	</div>
+  </footer>
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src='js/main.js'></script>
+
 </body>
 </html>
