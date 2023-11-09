@@ -23,10 +23,11 @@
 
 /*header style*/
 .header{
-background-image: url('../images/FacialRec.jpg');
+background-image: url('../images/cover.png');
 background-attachment: fixed;
 background-size: cover;
 background-position: center;
+background: white;
 }
 
 .overlay {
